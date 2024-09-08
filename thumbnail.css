@@ -1,0 +1,46 @@
+
+.div_s{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1.2%;
+    row-gap: 3%;
+    margin: 25px;
+}
+
+.div_one{
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    margin-top: 3%;
+}
+
+.thumbnail{
+    width: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.thumbnail:hover{
+    border-radius: 0px;
+    transition: 0.15s;
+}
+
+.channel_picture_image{
+    width: 100%;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.main_tittle{
+    font-weight: bold;
+    font-size: 200%;
+    color: white;
+    margin: 0px;
+    margin-left: 3%;
+}
+
+.second_tittle{
+    font-size: 200%;
+    margin: 0px;
+    color: rgb(116, 116, 116);
+    margin-left: 3%;
+}
